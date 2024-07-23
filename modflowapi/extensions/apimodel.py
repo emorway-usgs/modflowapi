@@ -165,11 +165,16 @@ class ApiModel(ApiMbase):
             "sto": ArrayPackage,
             "wel": ListPackage,
             # gwt
-            "adv": ArrayPackage,
+            "dsp": ArrayPackage,
             "cnc": ListPackage,
             "ist": ArrayPackage,
             "mst": ArrayPackage,
             "src": ListPackage,
+            # gwe
+            "cnd": ArrayPackage,
+            "ctp": ListPackage,
+            "esl": ListPackage,
+            "est": ArrayPackage,
         }
 
         self.allow_convergence = True
