@@ -17,8 +17,8 @@ class ApiExchange(ApiMbase):
 
     def __init__(self, mf6, name):
         pkg_types = {
-            "gwf-gwf": ListPackage, 
-            "gwt-gwt": ListPackage, 
-            "gwe-gwe": ListPackage
+            "gwf-gwf": ListPackage,
+            "gwt-gwt": ListPackage,
+            "gwe-gwe": ListPackage,
         }
         super().__init__(mf6, name, pkg_types)
